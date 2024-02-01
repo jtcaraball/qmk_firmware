@@ -64,7 +64,8 @@ if [ -n "$target" ]; then
 		errcho "Consider flashing with QMK Toolbox (https://github.com/qmk/qmk_toolbox) instead"
 		exit 3
 	else
-		usb_args="--privileged -v /dev:/dev"
+		# usb_args="--privileged -v /dev:/dev"
+		usb_args="-v /dev:/dev"
 	fi
 fi
 dir=$(pwd -W 2>/dev/null) || dir=$PWD  # Use Windows path if on Windows
