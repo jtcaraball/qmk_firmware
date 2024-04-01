@@ -3,12 +3,9 @@
 
 #pragma once
 
-<<<<<<< HEAD
 /* #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL */
 #define RGBLIGHT_DEFAULT_ON false
 
-=======
->>>>>>> master
 #define WS2812_PWM_DRIVER PWMD4
 #define WS2812_PWM_CHANNEL 4
 #define WS2812_DMA_STREAM STM32_DMA1_STREAM6
