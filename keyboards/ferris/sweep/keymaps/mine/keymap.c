@@ -3,12 +3,12 @@
 
 #include QMK_KEYBOARD_H
 
-#define QGUI KC_RSFT
+#define QGUI KC_RGUI
 #define QSFT KC_RSFT
 #define QCTL KC_LCTL
 #define QALT KC_LALT
 
-#define PGUI OSM(MOD_RSFT)
+#define PGUI OSM(MOD_RGUI)
 #define PSFT OSM(MOD_RSFT)
 #define PCTL OSM(MOD_LCTL)
 #define PALT OSM(MOD_LALT)
