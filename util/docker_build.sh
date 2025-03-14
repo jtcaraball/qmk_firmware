@@ -1,5 +1,4 @@
 #!/bin/sh
-# NOTE: This script uses tabs for indentation
 
 errcho() {
 	echo "$@" >&2
